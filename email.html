@@ -5,6 +5,14 @@
         <title></title>
         <style>
 
+        body {
+          margin: 0;
+        }
+
+        #bodyTable {
+          background-color: #232323;
+        }
+        
         .main {
             width: 600px;
         }
@@ -59,12 +67,39 @@
         }
 
         .more-info td {
-            padding-bottom: 15px;
+            padding: 0 40px 15px 40px;
+            background-color: #ffffff;
         }
 
 
         .footer {
           background-color: #eaeaea;
+          font-size: 13px;
+          line-height: 17px;
+        }
+        .footer p {
+          line-height: 17px;
+          font-weight: bold;
+        }
+        .footer ul {
+          margin:0;
+          padding:0;
+        }
+        .footer ul li {
+          list-style: none;
+          padding: 0 40px 0 0;
+          text-align: right;
+        }
+        .footer .curatio {
+          padding: 0 0 0 40px;
+        }
+        .footer .curatio p {
+          float: left;
+          margin-top: 47px;
+        }
+        .curatio img {
+          float:left;
+          margin: 30px 10px 30px 0;
         }
 
         </style>
@@ -105,12 +140,16 @@
                                   
                                   <tr class="footer">
                                     <td>
-                                      <img src="#">
-                                      <p>myCuratio is a product<br> of Curate Health <span class="super">TM</span></p>
+                                      <div class="curatio">
+                                        <img src="assets/foot-curate.png">
+                                        <p>myCuratio is a product<br> of Curate Health <span class="super">TM</span></p>
+                                      </div>
                                     </td>
                                     <td>
-                                      <a href="http://www.mycuratio.com">www.mycuratio.com</a>
-                                      <a href="mailto:support@mycuratio.com">support@mycuratio.com</a>
+                                      <ul>
+                                        <li><a href="http://www.mycuratio.com">www.mycuratio.com</a></li>
+                                        <li><a href="mailto:support@mycuratio.com">support@mycuratio.com</a></li>
+                                      </ul>
                                     </td>
                                   </tr>
                                 
